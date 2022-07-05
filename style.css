@@ -10,7 +10,8 @@ body{
 }
 .sc-1-text{
   width: 100%;
-  margin-left: 70px;
+  margin-left: 0;
+  padding: 70px;
   position: relative;
 }
 .skip{
@@ -32,19 +33,16 @@ body{
   border-radius: 70px;
   color: #fff;
 }
-.div-img{
-  width: 100%;
-}
-.sc-1-img{
+.div-img img{
   width: 100%;
 }
 #section-2{
   background: url(img/Frame\ 57.jpg);
-  background-size: contain;
+  background-size: cover;
   width: 100%;
   background-repeat: no-repeat;
   display: flex;
 }
-.section-2 div{
-  width: 50%;
+.img-2 img{
+  width: 60%;
 }
